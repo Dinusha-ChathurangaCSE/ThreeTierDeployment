@@ -17,7 +17,7 @@ This Repo is the blueprint for leveraging AWS services like ECR, S3, DynamoDB, a
 
 **End-to-End DevSecOps Workflow:** Incorporate security scans, monitoring, and scalable infrastructure for a production-ready deployment.
 
-
+ArgoCD dashboard:
 
 
 
