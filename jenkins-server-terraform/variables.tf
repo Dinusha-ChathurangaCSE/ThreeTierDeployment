@@ -2,7 +2,7 @@
 
 variable "region" {
   description = "The AWS region to create resources in."
-  default     = "us-west-2"
+  default     = "us-east-1"
 }
 
 # Networking Configuration
@@ -51,10 +51,11 @@ variable "instance_type" {
 
 variable "key_name" {
   description = "The name of the SSH key pair to access the instance."
-  default     = "devsecops-project"
+  default     = "new-key"
 }
 
 # IAM Role
+
 
 variable "iam_role_name" {
   description = "The IAM role name for jenkins instance."
